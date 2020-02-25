@@ -73,7 +73,7 @@ for( var i = 0; i <= 20; i++)
         var res = "";
         for(var j = 1; j <=10; j++)
         {
-            res+= i + " * " + j + " = " + i*j + "\n";   //"1 * 1 = 1"
+            res += i + " * " + j + " = " + i*j + "\n";   //"1 * 1 = 1"
         }
         alert(res);
     }
@@ -113,12 +113,11 @@ alert(sum);
 7. 🎖Use a while loop to print out the even number from 1 to 20. (You'll need Modulus for this. And an IF Statement.)
 ```js
 // Your code goes here
- var x = 1;
-var sum = 0;
+var x = 1;
 while(x <= 20)
 {
     if(x % 2 == 0)
-    alert(x);
+        alert(x);
     x++;
 }
 ```

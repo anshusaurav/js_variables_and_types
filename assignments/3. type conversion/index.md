@@ -4,7 +4,7 @@ typeof "Joe";   "string"
 typeof 4;       "number"
 typeof NaN;     "number"
 typeof false;   "boolean"
-typeof function () {};  "function" //Isn't function an object . So it could be technically object?
+typeof function () {};  "object" 
 var phone = 8983700;    "number"
 typeof phone;   "undefined"
 typeof null;    "object"
